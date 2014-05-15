@@ -27,15 +27,10 @@
 
 #include <QtCore>
 
-#if QT_VERSION >= QT_VERSION_CHECK(5, 0, 0)
-#include <lxqt5/Application>
-#include <lxqt5/AboutDialog>
-#include <lxqt5/GridLayout>
-#else
-#include <LxQtApplication>
-#include <LxQtAboutDialog>
-#include <LxQtGridLayout>
-#endif
+#include <LxQt/Application>
+#include <LxQt/AboutDialog>
+#include <LxQt/GridLayout>
+
 
 int main(int argc, char *argv[])
 {
